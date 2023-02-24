@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/supportrollout" mode="merge"/>
+    <filter root="/content/supportrollout" mode="merge"/>
+    <filter root="/content/dam/supportrollout" mode="merge">
+        <exclude pattern="/content/dam/supportrollout(/.*)?"/>
+        <include pattern="/content/dam/supportrollout/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/supportrollout/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/supportrollout" mode="merge"/>
+
+    <filter root="/conf/global/settings/workflow/models/customlogger" mode="merge" />
+    <filter root="/var/workflow/models/customlogger" mode="merge" />
+</workspaceFilter>
